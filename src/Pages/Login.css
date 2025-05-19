@@ -1,0 +1,124 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+}
+
+.login-background {
+  background: linear-gradient(to bottom right, #36c6f0, #4be3c1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.login-card h2 {
+  color: #49b7a4;
+  margin-bottom: 25px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  font-size: 15px;
+}
+
+.login-button {
+  background-color: #8dd8a7;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #72c391;
+}
+
+.login-version {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+.login-background {
+  background: linear-gradient(to bottom right, #36c6f0, #4be3c1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  font-size: 15px;
+}
+
+.login-button {
+  background-color: #8dd8a7;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #72c391;
+}
+
+
+.toggle-btn {
+  background-color: #ccc;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.toggle-btn:hover {
+  background-color: #bbb;
+}

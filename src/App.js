@@ -1,7 +1,7 @@
 // src/App.js
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Registro from './pages/Registro';
-import Login from './pages/Login.js';
+import Registro from './Pages/Registro.js';
+import Login from './Pages/Login.js';
 
 function App() {
   return (
